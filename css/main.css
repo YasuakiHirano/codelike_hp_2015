@@ -1,0 +1,295 @@
+html, body{
+    height:100%; 
+    margin:0;
+    padding:0;
+}
+#menu_area{
+    background:#172a88;
+    width:195px;
+    height:100%;
+    min-height:1300px;
+    margin:0;
+    padding-top:25px;
+	padding-bottom:130px;
+    background-repeat:repeat-y;
+    position:absolute;
+    top:0;
+    left:0;
+}
+#btn_about{
+    background:url("../images/btn_about.png"); 
+    width:132px;
+    height:135px;
+    margin:0px auto;
+    cursor:pointer;
+}
+#btn_contact{
+    background:url("../images/btn_contact.png"); 
+    width:132px;
+    height:135px;
+    margin:33px auto;
+    cursor:pointer;
+}
+#btn_create{
+    background:url("../images/btn_create.png"); 
+    width:132px;
+    height:135px;
+    margin:33px auto;
+    cursor:pointer;
+}
+#btn_profile{
+    background:url("../images/btn_profile.png"); 
+    width:132px;
+    height:135px;
+    margin:33px auto;
+    cursor:pointer;
+}
+#btn_service{
+    background:url("../images/btn_service.png"); 
+    width:132px;
+    height:134px;
+    margin:33px auto;
+    cursor:pointer;
+}
+
+#btn_other{
+    background:url("../images/btn_other.png"); 
+    width:132px;
+    height:134px;
+    margin:33px auto;
+    cursor:pointer;
+}
+#btn_calender{
+    background:url("../images/btn_calender.png"); 
+    width:132px;
+    height:134px;
+    margin:33px auto;
+    cursor:pointer;
+}
+#codelike_logo{
+    position:absolute;
+    top:239px;
+    left:215px;
+}
+#topobj1{
+    position:absolute;
+    top:41px;
+    left:162px;
+    cursor:pointer;
+}
+#topobj2{
+    position:absolute;
+    top:74px;
+    left:383px;
+    cursor:pointer;
+}
+#topobj3{
+    position:absolute;
+    top:171px;
+    left:486px;
+    cursor:pointer;
+}
+#topobj4{
+    position:absolute;
+    top:414px;
+    left:486px;
+    cursor:pointer;
+}
+#topobj5{
+    position:absolute;
+    top:539px;
+    left:370px;
+    cursor:pointer;
+}
+#topobj6{
+    position:absolute;
+    top:523px;
+    left:282px;
+    cursor:pointer;
+}
+#topobj7{
+    position:absolute;
+    top:490px;
+    left:98px;
+    cursor:pointer;
+}
+#topobj8{
+    position:absolute;
+    top:349px;
+    left:52px;
+    cursor:pointer;
+}
+#topobj9{
+    position:absolute;
+    top:189px;
+    left:30px;
+    cursor:pointer;
+}
+#main_area{
+    width:80%;
+    height:100%;
+    position:absolute;
+    top:0;
+    /*left:195px;*/
+    left:50%;
+    margin-left:-225px;
+}
+.display_hidden{
+    display:none; 
+}
+.head_title{
+	margin-top:20px;
+	margin-bottom:20px;
+	font-size:180%;	
+}
+.main_text{
+	width:630px;
+	margin-left:30px;
+	font-size:120%;	
+	line-height:170%;
+}
+#codelike_other_area{
+	margin-top:30px;
+	margin-left:230px;
+	cursor:pointer;
+}
+/*-- Service --*/
+.service_block{
+	margin-top:30px;
+	width:100%;
+}
+.service_type{
+	font-size:110%;
+	width:100%;
+}
+.service_item{
+	margin-left:20px;
+	margin-bottom:15px;
+	width:100%;
+}
+
+/*-- Contact --*/
+#mail_top
+{
+	width:100%;	
+    float:left;
+}
+
+#mail_left
+{
+    width:110px;
+    height:80px;
+    float:left;
+}
+
+#mail_right
+{
+    width:320px;
+    height:60px;
+    padding-top:20px;
+    font-size:25px;
+    font-weight:bold;
+    float:left;
+}
+#sns_line
+{
+    width:170px;
+    height:60px;
+    float:right;
+}
+#mail_right a
+{
+    color:#000;
+}
+#form_table
+{
+	width:100%;
+    padding:10px;
+    border:1px solid #999999;
+}
+#form_table td
+{
+    padding:3px;
+}
+#form_table #message
+{
+    height:90px;
+}
+/*-- Profile --*/
+#profile_table{
+	width:83%;
+}
+#profile_table td{
+	padding: 10px;
+	border: 2px dotted #999999;
+}
+#scroll_box {
+	height: 110px;
+	overflow-y: auto;
+	font-size: 12px;
+}
+/*-- Create --*/
+.create_item_box
+{
+    border-bottom:2px dotted #172a88;
+    width:711px;
+    padding-bottom:30px;
+    padding-top:30px;
+}
+/*-- Other --*/
+.text_block{
+	margin-top:30px;
+	width:100%;
+}
+.text_type{
+	font-size:110%;
+	width:100%;
+}
+.text_item{
+	margin-left:20px;
+	margin-bottom:15px;
+	width:100%;
+}
+/*-- Calender --*/
+.date_box{
+	width:35px;
+	height:35px;
+	float:left;
+	border:1px solid #000000;
+}
+.one_month_cal{
+	width:280px;
+	float:left;
+	margin-top:30px;
+	padding:5px;
+}
+.date_box_holiday{
+	width:35px;
+	height:35px;
+	float:left;
+	border:1px solid #000000;
+	background:#ffd5ec;
+}
+.date_box_work{
+	width:35px;
+	height:35px;
+	float:left;
+	border:1px solid #000000;
+	background:#0099FF;
+}
+.month_title{
+	font-size:130%;
+	margin-bottom:10px;
+}
+#now_day{
+	font-size:120%;
+	color:red;
+}
+#calender_main{
+	font-size:120%;
+	line-height:130%;
+}
+#calender_title{
+	font-size:130%;
+	margin-bottom:10px;
+}
